@@ -3,4 +3,5 @@
 # File list
 
 ### Section 0 : C언어 기초 문법 리뷰
-* [1](https://github.com/TaekGeunLee/study_CS/tree/master/S1/1) : 배열, 포인터, 문자열, 동적메모리 할당
+* [1](https://github.com/TaekGeunLee/study_CS/tree/master/S1/1) : 배열과 포인터
+* [2](https://github.com/TaekGeunLee/study_CS/tree/master/S1/2) : 문자열
