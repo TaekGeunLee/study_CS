@@ -71,7 +71,7 @@ int arr[15];
 이렇게 생성된 포인터 변수는 배열의 첫 번째 인덱스에 해당되는 칸의 번지를 저장하게 된다.
 </p>
 
-<img src="#" alt="S1_1-3" />
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_1-3.PNG" alt="S1_1-3" />
 
 <p>
 이러한 특징을 활용한 예제 ex2.c를 확인해보자.<br />
@@ -142,7 +142,7 @@ arr 배열의 크기를 늘리기 위해 tmp 배열을 선언했다.<br />
 </p>
 
 
-<img src="#" alt="S1_1-4" />
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_1-4.PNG" alt="S1_1-4" />
 
 <p>해당 예제는 ex5.c에서 참고할 것.</p>
 
