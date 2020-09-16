@@ -5,3 +5,6 @@
 ### Section 0 : C언어 기초 문법 리뷰
 * [1](https://github.com/TaekGeunLee/study_CS/tree/master/S1/1) : 배열과 포인터
 * [2](https://github.com/TaekGeunLee/study_CS/tree/master/S1/2) : 문자열
+* [3](https://github.com/TaekGeunLee/study_CS/tree/master/S1/3) : 문자열 예제
+
+### Section 1 : 전화번호집 프로그램 제작 실습

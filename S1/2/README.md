@@ -84,15 +84,78 @@ words[n] = ??
 ```
 
 <p>
-?? 안에는 무엇이 들어갈까.
+?? 안에는 무엇이 들어갈까.<br />
 buffer를 쓰면 되겠지. 라고 생각했지만, 그렇게 하면 다음과 같은 결과가 도출되어 버린다.
 </p>
 
 <img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_2-2.PNG" alt="S1_2-2" />
 
---> ?? 안에 들어갈 것은 strdup(buffer) 이다. 해당 메서드의 역할과 함께 계속 README를 기록해나갈 것.
+<p>
+현 시점에서 JS만 쓰다가 C로 넘어가서 이해하기 어려울 수도 있겠지만,
+C언어는 컴파일러, 즉 전체 코드를 해석한 뒤에 결과를 도출하기 때문에 저런 결과가 발생하는 것이다.<br />
+따라서, 이에 대해선 문자열을 하나 더 복사를 하는 strdup() 함수를 사용할 것이다. (string.h 내의 함수)
+</p>
 
+<p>
+strcpy()를 써야 하지 않아? 싶겠지만, words[]를 이미 주소를 할당하는 배열로써 선언했기 때문에
+메모리의 주소값을 복사하는 strdup()를 쓰는 것이다.
+</p>
 
+### 파일 읽고 쓰기
 
+<p>
+node.js 에서 fs 모듈로 파일을 읽고 썼었던 것 처럼 여기에서도 해보도록 하자.<br />
+제일 먼저 다음 구문을 입력한다.
+</p>
 
+```C
+FILE *fp = fopen("input.txt", "r"); // input.txt를 읽겠다고 세팅을 한다.
+fclose(fp);
+```
+<p>
+자료형 FILE 타입의 포인터 변수 fp를 선언하면서 함수 fopen()을 호출하였다.<br />
+FILE 타입을 사용할 때에는 반드시 포인터 변수로 선언해야 한다! 라고 일단 그렇게 알고 있자.<br />
+fopen(), fclose()는 파일을 열고(open) 닫는(close) 함수이다.<br />
+파일에 관련된 작업을 하기 위해선 반드시 파일을 열어서 어느 작업을 할 지에 대한 세팅 작업을 거친다.
+</p>
 
+```c
+FILE *fp = fopen("input.txt", "r"); // 파일을 연다.
+char buffer[100];
+
+while(fscanf(fp, "%s", buffer) != EOF)
+    printf(buffer, "%s");
+
+fclose(fp); // 파일을 닫는다.
+
+// ex2.c
+```
+<p>
+다음은 전체 코드이다.<br />
+반복문을 이용해 input.txt 내부의 문자를 하나 하나 읽어들인 뒤 buffer에 할당한다.<br />
+이후 buffer 문자열의 각 문자를 출력해보면 파일에서 읽어들였던 문자열이 출력된다.
+</p>
+
+<p>
+이번엔 파일을 써보자(write).<br />
+처음 파일을 열 때 호출했던 fopen()의 두 번째 인자로 "w"를 쓰면 쓰기 모드가 된다.
+</p>
+
+```c
+FILE *fp_write = fopen("ouput.txt", "w");
+char buffer[100];
+
+fprintf(fp_write, "%s", "nurse"); // 세번째 인자의 내용을 ouput.txt에 작성.
+
+fclose(fp_write);
+```
+
+<p>
+파일을 읽는 함수가 fscanf() 이라면, fprinf()는 파일을 쓰는 거라고 생각하면 된다.<br />
+이후 코드를 실행해보면 프로젝트 파일 내에 ouput.txt 파일이 생성되어 있을 것이다.
+</p>
+
+<p>
+ex3.c에 input.txt를 읽은 뒤에 읽어들인 그 내용을 output.txt에 쓰는 예제 코드가 적혀 있다.<br />
+반드시 참고해보도록 하자.
+</p>

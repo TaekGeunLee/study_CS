@@ -9,7 +9,7 @@ int main(void)
     char buffer[100];
 
     while(n<4 && scanf("%s", buffer) != EOF) {
-        words[n] = strdup(buffer);
+        words[n] = strdup(buffer); // buffer의 번지의 복사본을 words[n]에 할당.
         n++;
     }
 
