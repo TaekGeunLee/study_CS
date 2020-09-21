@@ -64,8 +64,6 @@ fgets()의 기능은 gets()와 거의 같되, 문자열을 입력 한 뒤에 생
 (줄바꿈 하면 이스케이프 문자 "\n")이 생성됨.
 </p>
 
-<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_3-1" alt="S1_3-1" />
-
 <p>문자열의 끝을 나타내는 특수 문자 '\0'을 이용해 코드를 고칠 필요가 있겠다.</p>
 
 ```c
@@ -83,3 +81,41 @@ while(1) {
 다만, fgets()나 get() 함수를 쓰는 대신 직접 함수를 만들어서 코드를 개선시켰다.<br />
 그에 대해선 예제코드를 확인하길 바란다.
 </p>
+
+### 예제 2
+
+<p>
+콘솔로부터 입력받은 문자열의 불필요한 공백들을 제거한 채로 출력해보자.<br />
+예를 들어 "  My  little ponny.. " 라고 입력했을 때 "My little ponny.." 라고 출력되는 것이다.
+</p>
+
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_3-1.PNG" alt="S1_3-1" />
+
+<p>
+위의 그림 처럼 콘솔로부터 입력받은 문자를 담을 배열(buffer)과 buffer 문자열을 압축해서 담아낼 배열(compression)을 구상한다.<br />
+실제 코딩에서는 반드시 두 개의 문자열을 선언하지 않은 채로 푸는 방법도 있으니 한 방법만 고집하지 말자.
+</p>
+
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_3-2.PNG" alt="S1_3-2" />
+
+<p>
+buffer에서 최초의 문자가 들어있는 인덱스에 도달할 때 까지, 초반의 공백 문자들은 지운다.<br />
+지운다는 것은 배열의 index를 스킵한다.. 라고 생각하면 된다.<br />
+문자의 공백 판별은 getchar() 함수를 이용해 알아낼 것 이다.
+</p>
+
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_3-3.PNG" alt="S1_3-3" />
+
+<p>
+이후엔 공백 문자를 할당 하되, 문자 바로 뒤에 있는 공백은 할당하고, 
+그 이후의 인덱스에 공백이 있다면 스킵한다.<br />
+예를 들어서 <b>대상 인덱스가 i라면, 이전 인덱스(i-1)에 공백이 있는지 없는지 체크하는 것이다.</b><br />
+상단에 굵은 글씨로 표시한 문단이 키 포인트이다.
+</p>
+
+<p>
+여기까지가 이번 예제를 이해하는 데 필요한 조건들이다.<br />
+이를 알고리즘으로 간단하게 도식화 하면 다음 처럼 될 것이다.
+</p>
+
+<img src="#" alt="S1_3-5" />

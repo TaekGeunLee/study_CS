@@ -8,3 +8,23 @@
 * [3](https://github.com/TaekGeunLee/study_CS/tree/master/S1/3) : 문자열 예제
 
 ### Section 1 : 전화번호집 프로그램 제작 실습
+
+
+# index
+
+### 예제
+* 포인터 변수를 이용해 배열 선언하기
+* 배열의 길이(length) 늘이기
+* 여러 개의 문자열들을 입력받아 하나의 배열에 저장하기
+* 파일 입출력하기
+* 문자열을 입력받으면 입력받은 문자열과 그 길이 출력하기
+
+### 함수
+* printf(), scanf()
+* malloc()
+* 연산자 : sizeof()
+* fopen(), fclose()
+* fscanf(), fprintf()
+* 문자열 조작 주요 함수 : strcpy(), strlen(), strcat(), strcmp()
+* gets(), fgets()
+* getchar()
