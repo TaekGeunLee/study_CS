@@ -10,6 +10,7 @@
 ### Section 1 : 전화번호집 프로그램 제작 실습
 * [4](https://github.com/TaekGeunLee/study_CS/tree/master/S1/4) : 개요, 데이터 추가(add) 기능
 * [4-1](https://github.com/TaekGeunLee/study_CS/tree/master/S1/4-1) : strdup(), strcpy()의 차이점
+* [5](https://github.com/TaekGeunLee/study_CS/tree/master/S1/5) : 데이터 열람(show), 제거(drop), 탐색(search) 기능
 
 
 
