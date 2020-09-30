@@ -51,9 +51,6 @@ void add() {
 void drop() {
     char buf1[BUFFER_SIZE];
     scanf("%s", buf1);
-    
-    buf1 == name[i]
-    
 
     for (int i=0; i<n; i++) {
         if (strcmp(buf1, name[i]) == 0) {
@@ -66,8 +63,21 @@ void drop() {
 };
 
 void show() {
-    printf("show command operate.\n");
+    for (int i=0; i<n; i++)
+        printf("%s %s\n", name[i], number[i]);
+
+    printf("complete command show.\n");
 };
+
 void search() {
-    printf("search command operate.\n");
+    char buf1[BUFFER_SIZE];
+    scanf("%s", buf1);
+
+    for (int i=0; i<n; i++) {
+        if (strcmp(buf1, name[i]) == 0) {
+            printf("%s\n", number[i]);
+            break;
+        }
+    }
+    printf("complete command show.\n");
 };

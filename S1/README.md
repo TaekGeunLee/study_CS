@@ -11,6 +11,9 @@
 * [4](https://github.com/TaekGeunLee/study_CS/tree/master/S1/4) : 개요, 데이터 추가(add) 기능
 * [4-1](https://github.com/TaekGeunLee/study_CS/tree/master/S1/4-1) : strdup(), strcpy()의 차이점
 * [5](https://github.com/TaekGeunLee/study_CS/tree/master/S1/5) : 데이터 열람(show), 제거(drop), 탐색(search) 기능
+* [7](https://github.com/TaekGeunLee/study_CS/tree/master/S1/7) : save, load - 데이터 파일화하기
+* [8](https://github.com/TaekGeunLee/study_CS/tree/master/S1/8) : 배열 재할당, 프롬프트 입력 방식 개선하기
+* [9](https://github.com/TaekGeunLee/study_CS/tree/master/S1/9) : 토큰화(tokenizing)
 
 
 
@@ -33,6 +36,7 @@
 * gets(), fgets() : 표준 입력(stdin)으로 들어온 문자열을 C언어 스타일 문자열인 char*, char[] 타입으로 저장
 * getchar() : char형의 데이터를 입력(input).
 * isspace() : 공백 값이면 true 반환
+* strtok() : 토큰화(tokenizing), 문자열 나누기
 
 ### 노트
 * [6](https://github.com/TaekGeunLee/study_CS/tree/master/S1/6) : C언어에서의 메모리 관리 방식
