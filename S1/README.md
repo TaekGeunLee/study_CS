@@ -17,7 +17,9 @@
 * [8](https://github.com/TaekGeunLee/study_CS/tree/master/S1/8) : 배열 재할당, 프롬프트 입력 방식 개선하기
 * [9](https://github.com/TaekGeunLee/study_CS/tree/master/S1/9) : 토큰화(tokenizing)
 * [10](https://github.com/TaekGeunLee/study_CS/tree/master/S1/10) : 전화번호부 2.0
+##### version 3.0
 
+### Section 2 : 연결 리스트_개념, 기본 동작 알아보기
 
 
 # index
