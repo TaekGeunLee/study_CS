@@ -18,6 +18,12 @@
 * [9](https://github.com/TaekGeunLee/study_CS/tree/master/S1/9) : 토큰화(tokenizing)
 * [10](https://github.com/TaekGeunLee/study_CS/tree/master/S1/10) : 전화번호부 2.0
 ##### version 3.0
+* [11](https://github.com/TaekGeunLee/study_CS/tree/master/S1/11) : 개요, 구조체란?
+* [12](https://github.com/TaekGeunLee/study_CS/tree/master/S1/12) : 전화번호부 3.0
+##### version 4.0
+* [13](https://github.com/TaekGeunLee/study_CS/tree/master/S1/13) : 구조체에 대한 포인터, 동적 메모리 할당
+* [14](https://github.com/TaekGeunLee/study_CS/tree/master/S1/14) : 전화번호부 4.0
+
 
 ### Section 2 : 연결 리스트_개념, 기본 동작 알아보기
 
