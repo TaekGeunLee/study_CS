@@ -45,9 +45,11 @@
 * fscanf(), fprintf() : 파일 스트림 입출력 함수
 * 문자열 조작 주요 함수 : strcpy(), strlen(), strcat(), strcmp()
 * gets(), fgets() : 표준 입력(stdin)으로 들어온 문자열을 C언어 스타일 문자열인 char*, char[] 타입으로 저장
+* fgetc() : 스트림 입력 함수
 * getchar() : char형의 데이터를 입력(input).
 * isspace() : 공백 값이면 true 반환
 * strtok() : 토큰화(tokenizing), 문자열 나누기
 
 ### 노트
 * [6](https://github.com/TaekGeunLee/study_CS/tree/master/S1/6) : C언어에서의 메모리 관리 방식
+* [15](https://github.com/TaekGeunLee/study_CS/tree/master/S1/15) : 스트림(stream)

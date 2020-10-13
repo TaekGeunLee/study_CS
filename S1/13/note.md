@@ -2,7 +2,8 @@
 
 <p>함수를 호출했을 때, 구조체를 리턴할 경우 C언어에서는 다음과 같이 동작한다.</p>
 
-<img src="https://github.com/TaekGeunLee/study_CS/tree/master/readmeImg/S1_13-1.png" alt="S1_13-1" />
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_13-1.png" alt="S1_13-1" />
+
 
 <p>
 위와 같이 구조체 X를 리턴하는 함수 A가 호출되었다고 가정을 해보자.<br />
