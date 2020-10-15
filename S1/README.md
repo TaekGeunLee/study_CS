@@ -19,7 +19,8 @@
 * [10](https://github.com/TaekGeunLee/study_CS/tree/master/S1/10) : 전화번호부 2.0
 ##### version 3.0
 * [11](https://github.com/TaekGeunLee/study_CS/tree/master/S1/11) : 개요, 구조체란?
-* [12](https://github.com/TaekGeunLee/study_CS/tree/master/S1/12) : 전화번호부 3.0
+* [12](https://github.com/TaekGeunLee/study_CS/tree/master/S1/12) : 전화번호부 3.0_1
+* [15](https://github.com/TaekGeunLee/study_CS/tree/master/S1/15) : 전화번호부 3.0_2
 ##### version 4.0
 * [13](https://github.com/TaekGeunLee/study_CS/tree/master/S1/13) : 구조체에 대한 포인터, 동적 메모리 할당
 * [14](https://github.com/TaekGeunLee/study_CS/tree/master/S1/14) : 전화번호부 4.0
@@ -52,4 +53,4 @@
 
 ### 노트
 * [6](https://github.com/TaekGeunLee/study_CS/tree/master/S1/6) : C언어에서의 메모리 관리 방식
-* [15](https://github.com/TaekGeunLee/study_CS/tree/master/S1/15) : 스트림(stream)
+* [16](https://github.com/TaekGeunLee/study_CS/tree/master/S1/16) : 스트림(stream)

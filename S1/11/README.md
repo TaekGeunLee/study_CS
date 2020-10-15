@@ -5,7 +5,8 @@
 
 <ul>
 <li>이전엔 사용자 이름(name)과 전화번호(number) 까지만 저장했었다.<br />이메일, 좋아하는 색깔 등 더 많은 항목을 추가할 수 있도록 해보자.</li>   
-<li>커스텀 함수 read_line()의 조정</li>  
+<li>커스텀 함수 read_line()의 조정</li>
+<li>저장(save as), 로드(load) 할 때 사용되는 txt 파일의 템플릿 규격 수정</li>  
 <li>입력 프롬프트를 개선시킨다. <a href="https://github.com/TaekGeunLee/study_CS/tree/master/S1/3">이전 예제</a>를 활용해서, 이름을 입력할 때 불필요한 공백을 한 칸의 공백만 남기도록 하자.</li>   
 </ul>
 
