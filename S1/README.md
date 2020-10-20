@@ -54,3 +54,4 @@
 ### 노트
 * [6](https://github.com/TaekGeunLee/study_CS/tree/master/S1/6) : C언어에서의 메모리 관리 방식
 * [16](https://github.com/TaekGeunLee/study_CS/tree/master/S1/16) : 스트림(stream)
+* [17](https://github.com/TaekGeunLee/study_CS/tree/master/S1/17) : error-assignment-to-expression-with-array-type-error
