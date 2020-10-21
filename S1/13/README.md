@@ -62,7 +62,7 @@ typedef struct person {
     char *group;
 } Person;
 
-Person directory[CAPACITY];
+Person * directory[CAPACITY];
 ```
 <p>
 실은 이전 디렉토리에서 포인터 변수를 썻었는데, 그 사용 이유가 바로 이것이다.<br />
