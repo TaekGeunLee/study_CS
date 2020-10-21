@@ -7,10 +7,10 @@
 
 
 typedef struct person {
-    char **name;
-    char **number;
-    char **email;
-    char **group;
+    char *name;
+    char *number;
+    char *email;
+    char *group;
 } Person;
 
 Person directory[CAPACITY];
@@ -35,7 +35,7 @@ void add();
 void drop();
 void show();
 int search();
-//void load();
+void load();
 void saveAs();
 
 
