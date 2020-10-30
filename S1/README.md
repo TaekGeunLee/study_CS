@@ -27,6 +27,7 @@
 
 
 ### Section 2 : 연결 리스트_개념, 기본 동작 알아보기
+* [18](https://github.com/TaekGeunLee/study_CS/tree/master/S1/18) : 연결리스트란?
 
 
 # index
