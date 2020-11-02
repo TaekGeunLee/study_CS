@@ -29,6 +29,8 @@
 ### Section 2 : 연결 리스트_개념, 기본 동작 알아보기
 * [18](https://github.com/TaekGeunLee/study_CS/tree/master/S1/18) : 연결리스트란?
 * [19](https://github.com/TaekGeunLee/study_CS/tree/master/S1/19) : 연결리스트 기본 예제
+* [20](https://github.com/TaekGeunLee/study_CS/tree/master/S1/20) : 전략 1 : 맨 앞에 노드 생성하기
+* [20](https://github.com/TaekGeunLee/study_CS/tree/master/S1/21) : 전략 2 :
 
 
 # index
