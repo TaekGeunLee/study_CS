@@ -7,7 +7,7 @@
 </p>
 
 
-### 기본 전략
+### 연결-리스트 맨 앞에 노드 생성하기
 
 <img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_20-1.png" alt="S1_20-1" />
 
@@ -34,7 +34,7 @@ tmp->next = head;
 head = tmp;
 ```
 
-### 함수 내부에 구현 : head가 지역 변수일 경우
+## 함수 내부에 구현 : head가 지역 변수일 경우
 
 <p>
 위에서 다뤘던 전략을 함수로 구현하고 싶은 상황이 있을 수 있다.<br />
@@ -116,6 +116,33 @@ Node * add_first(char *item, Node *head) {
 <p>
 또 다른 대안으로 함수 내에서 값을 직접 리턴하는 경우를 생각해 볼 수 있다.<br />
 그렇게 되면 head를 값으로써 인자로 넣어도 아무런 문제 없이 동작할 것이다.
+</p>
+
+### 특정 노드 뒤에 삽입하기
+
+<p>
+일련의 연결-리스트의 중간에 노드를 삽입하는 전략이다.<br />
+기본 처리 순서는 맨 앞에 노드를 세우는 전략과 비슷하다.
+</p>
+
+<img src="https://github.com/TaekGeunLee/study_CS/blob/master/readmeImg/S1_20-2.png" alt="S1_20-2" />
+
+<p>이를 함수로 표현해보면 다음과 같다.</p>
+
+```c
+void after_insert(char *item) {
+    Node *tmp = (Node *)malloc(sizeof(Node));
+    tmp->data = item;
+    tmp->next = prev->next;
+    prev->next = tmp;                           
+}
+```
+
+<p>
+특정 노드 앞에 노드를 삽입하는 것도 생각해볼 수 있다.<br />
+불가능 한 것은 아니지만 그렇게 하면 전략이 복잡해진다.<br />
+(직접 그림을 그려서 생각을 해보던지)<br />
+강의에서는 되도록이면 그런 상황을 만들지 말 것만 제시하고 있다.
 </p>
 
 
