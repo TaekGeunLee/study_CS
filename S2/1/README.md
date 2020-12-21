@@ -64,3 +64,64 @@ struct Person p1 = { .name="Mina", .age=24, .number=5500}
 </p>
 
 <p>이런 식으로 기존 일반 데이터 형을 조합하여 만든 형을 파생형(derived type) 이라고 한다.</p>
+
+### typedef : 사용자 정의 타입
+
+<p>
+typedef는 특정 자료형에 별칭(alias)를 부여하는 키워드이다.<br />
+예를 들어서 int형을 해당 키워드를 이용해 MYINT형으로 이름을 사용할 수 있는 것이다.
+</p>
+
+```c
+typedef struct _Fruit {
+    char name[20];
+    char flavor[20];
+    int seed;
+} Fruit;
+
+/*
+struct _Fruit {
+    char name[20];
+    char flavor[20];
+    int seed;
+}
+*/
+```
+
+<p>
+굳이 구조체에 별칭을 달아주는 이유? 라고 생각했다.<br />
+일반적이라면 구조체 변수를 선언할 때 마다 앞에 struct를 붙여줘야만 한다.<br />
+typedef를 사용하게 되면 그런 번거로움을 생략할 수 있다는 것이다. 
+</p>
+
+```c
+struct Fruit p1;
+Fruit p1;
+
+// 위의 각 두 문단은 서로 같은 의미이다.
+```
+
+<p>
+착각할 수 있는 것으로 typedef는 식별자가 아닌 변수 형에다가 별칭(alias)을 달아주는 것이다.<br />
+이렇게 typedef로 만든 별칭을 <b>사용자 정의 타입</b> 이라고도 부른다.
+</p>
+
+### typedef : 구조체 이름 생략하기
+
+<p>typedef를 이용해 구조체를 선언한 상태라면, 구조체 이름을 생략할 수 있다.</p>
+
+```c
+typedef struct {
+    char name[20];
+    char flavor[20];
+    int seed;
+} Fruit;
+
+Fruit f1;
+```
+
+<p>
+앞 구절에서는 구조체 이름을 _Fruit로 했었다.<br />
+(struct 뒤에 붙는 구조체 이름을 태그(tag) 라고도 지칭한다.)<br />
+이러한 이름을 생략한 대신 구조체 변수에는 typedef로 만든 사용자 정의 타입, Fruit를 사용한다.
+</p>

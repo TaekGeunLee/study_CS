@@ -3,3 +3,4 @@
 # File list
 
 * [1](https://github.com/TaekGeunLee/study_CS/tree/master/S2/1) : Unit 48_구조체 사용하기
+* [2](https://github.com/TaekGeunLee/study_CS/tree/master/S2/2) : Unit 49_구조체 포인터 사용하기
