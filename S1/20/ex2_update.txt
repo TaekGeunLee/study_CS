@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node {
+    char *data;
+
+    struct node *next;
+
+} Node;
+
+void add_prev();
+
+Node *head = NULL;
+
+
+int main()
+{
+    head= (Node *)malloc(sizeof(Node));
+    head->data = "Basil";
+    head->next = NULL;
+
+    Node *p = (Node *)malloc(sizeof(Node));
+    p->data = "Thyme";
+    p->next = NULL;
+    head->next = p;
+
+    Node *s = (Node *)malloc(sizeof(Node));
+    s->data = "Ravender";
+    s->next = NULL;
+    p->next = s;
+
+    add_prev("Coriander", &p);
+
+    return 0;
+}
+
+void add_prev(char *str, Node **ptr_node) {
+    Node *tmp = (Node *)malloc(sizeof(Node));
+    tmp->data = str;
+    tmp->next = (*ptr_node)->next;
+    (*ptr_node)->next = tmp;
+    printf("tmp-node : %s\n", tmp->data);
+}

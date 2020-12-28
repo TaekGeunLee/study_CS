@@ -33,3 +33,15 @@ p1->weight = 30;
 포인터 구조체 내부의 멤버 변수에 접근하기 위해 전용 연산자(->)를 사용한다.<br />
 일반 구조체는 접근 지정자(.)를 사용한다.
 </p>
+
+```c
+typedef struct _Person {
+    char name[20];
+    int age;
+    int weight;
+} Person
+
+struct Person *p1 = malloc(sizeof(Person)); // sizeof(struct _Person)와 같음.
+```
+
+typedef를 이용해 별칭을 단 경우에도 구조체 포인터를 온전히 쓸 수 있다.
