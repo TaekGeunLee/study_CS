@@ -31,7 +31,7 @@
 * [19](https://github.com/TaekGeunLee/study_CS/tree/master/S1/19) : 연결리스트 기본 예제
 * [20](https://github.com/TaekGeunLee/study_CS/tree/master/S1/20) : 전략 1 : 노드 삽입
 * [21](https://github.com/TaekGeunLee/study_CS/tree/master/S1/21) : 전략 2 : 노드 제거
-* [22](https://github.com/TaekGeunLee/study_CS/tree/master/S1/22) : 전략 3 : 노드 순회(traverse)
+* [22](https://github.com/TaekGeunLee/study_CS/tree/master/S1/22) : 전략 3 : 노드 순회(traverse), 응용
 
 
 # index
