@@ -33,6 +33,10 @@
 * [21](https://github.com/TaekGeunLee/study_CS/tree/master/S1/21) : 전략 2 : 노드 제거
 * [22](https://github.com/TaekGeunLee/study_CS/tree/master/S1/22) : 전략 3 : 노드 순회(traverse), 응용
 
+### Section 3 : 다항식 만들기
+* [23](https://github.com/TaekGeunLee/study_CS/tree/master/S1/23) : 다항식 만들기_01
+* [24](https://github.com/TaekGeunLee/study_CS/tree/master/S1/24) : 다항식 만들기_02
+
 
 # index
 
