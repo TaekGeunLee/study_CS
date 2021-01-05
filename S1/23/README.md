@@ -36,6 +36,6 @@ Term 내의 멤버 변수의 정보들을 나열해보면 다음과 같다.
 
 * [1](https://github.com/TaekGeunLee/study_CS/blob/master/S1/23/23-1.md) : 구조체 Polynomial, Term 생성
 * [2](https://github.com/TaekGeunLee/study_CS/blob/master/S1/23/23-2.md) : Polynomial, Term 초기화 함수
-* ■■ : add_term: 항 추가 함수
+* [3](https://github.com/TaekGeunLee/study_CS/blob/master/S1/23/23-3.md) : add_term: 항 추가 함수
 * [4](https://github.com/TaekGeunLee/study_CS/blob/master/S1/23/23-4.md) : 전체 코드
 
