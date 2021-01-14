@@ -10,7 +10,7 @@
 
 
 ### Tranning
-
+* [A1](https://github.com/TaekGeunLee/study_CS/tree/master/A1) : Algorithm tranning
 
 ### WishList
 * 스트림(stream)이란?
