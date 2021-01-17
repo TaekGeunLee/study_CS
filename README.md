@@ -1,7 +1,7 @@
 # File list
 
 ### study course
-* [S1](https://github.com/TaekGeunLee/study_CS/tree/master/S1) : C로 배우는 자료구조 및 여러가지 예제 실습
+* [S1](https://github.com/TaekGeunLee/study_CS/tree/master/S1) : C로 배우는 자료구조 및 여러가지 예제 실습 (중단)
 * [S2](https://github.com/TaekGeunLee/study_CS/tree/master/S2) : C언어 코딩 도장
 * [Article](https://github.com/TaekGeunLee/study_CS/tree/master/Article) : 기사(Article) 모음집
 * [Video](https://github.com/TaekGeunLee/study_CS/tree/master/Video) : 영상(Video) 모음집
